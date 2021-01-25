@@ -1,0 +1,49 @@
+.income {
+  text-align: center;
+  margin-bottom: 60px;
+
+  @media screen and(min-width: 768px) {
+    margin-right: 74px;
+    text-align: center;
+  }
+
+  @media screen and(min-width: 1200px) {
+    width: 206px;
+    margin-top: 12px;
+    text-align: left;
+  }
+}
+.income-title {
+  color: $wite;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  text-align: center;
+
+  @media screen and(min-width: 1200px) {
+    margin-left: 70px;
+  }
+}
+.income .social-links {
+  @media screen and(min-width: 1200px) {
+    margin-left: 70px;
+  }
+}
+.footer-social-links .social-link {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+}
+.footer-social-links .social-link + .social-link {
+  margin-left: 10px;
+}
+
+.foot .icon-link {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+}
+.foot .social-icon {
+  fill: $wite;
+}
