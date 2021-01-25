@@ -1,17 +1,6 @@
 .income {
   text-align: center;
   margin-bottom: 60px;
-
-  @media screen and(min-width: 768px) {
-    margin-right: 74px;
-    text-align: center;
-  }
-
-  @media screen and(min-width: 1200px) {
-    width: 206px;
-    margin-top: 12px;
-    text-align: left;
-  }
 }
 .income-title {
   color: $wite;
